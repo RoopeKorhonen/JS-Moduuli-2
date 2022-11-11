@@ -2,8 +2,8 @@
 'use strict';
 let kohde = document.querySelector('#kohde')
 let number_list = []
-let number_for = 1
-for(let i = 0; number_for > 0 ; i++){
+
+for(let i = 0; true ; i++){
     let number = parseInt(prompt('Give a number you havent used'))
     if (number_list.includes(number)){
         break
@@ -12,5 +12,6 @@ for(let i = 0; number_for > 0 ; i++){
     }
 }
 kohde.innerHTML = ('Number is already given')
-console.log(number_list)
+let sorted_list = number_list.sort(function (a, b){return a-b});
+console.log(sorted_list)
 
