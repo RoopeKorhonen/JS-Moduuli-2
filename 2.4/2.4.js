@@ -9,9 +9,9 @@ for(let i = 0; number != 0; i++){
     number_list[i] = number
     }
 }
-let sorted_numbers = number_list.sort()
-let r_sorted_numbers = sorted_numbers.reverse()
-console.log(r_sorted_numbers)
+let sorted_numbers = number_list.sort(function (a, b){return b-a});
+
+console.log(sorted_numbers)
 
 
 
