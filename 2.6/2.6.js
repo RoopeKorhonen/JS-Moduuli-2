@@ -1,4 +1,4 @@
-let target = document.querySelector('#target')
+let kohde = document.querySelector('#target')
 
 function throwDice() {
     let diceNumber = Math.floor(Math.random() * 6) + 1;
@@ -17,4 +17,4 @@ while (true) {
     }
 }
 output_list += '</ul>';
-target.innerHTML = output_list
+kohde.innerHTML = output_list
