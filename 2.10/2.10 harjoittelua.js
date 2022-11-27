@@ -14,3 +14,10 @@ for (let i = 0; i < nof_candi; i++)
 }
 
 console.log(candidates)
+
+class My_list {
+  constructor(first_item, second_item, third_item) {
+    this.first_item = first_item
+    this.second_item = second_item
+    this.third_item = third_item
+      let first_list = new My_list()
